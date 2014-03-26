@@ -1,0 +1,35 @@
+<div class="jumbotron">
+    
+    <?php if(isset($error)) { ?><p class="bg-danger"><?php echo $error ?></p> <?php } ?>
+
+    <form action="/feeds" method="post">
+        <div class="form-group">
+            <label for="inputName" class="control-label">screen_name</label>
+              <input type="text" class="form-control" name="screen_name" id="inputName" placeholder="screen_name" value="Rick_Li_Yu">
+        </div>
+        <div class="form-group">
+            <label for="inputKey" class="control-label">oauth_consumer_key</label>
+              <input type="text" class="form-control" name="oauth_consumer_key" id="inputKey" placeholder="oauth_consumer_key" value="ljiY4uUndydF9acAi3YGvQ">
+        </div>
+        <div class="form-group">
+            <label for="inputSecret" class="control-label">oauth_nonce</label>
+              <input type="text" class="form-control" name="oauth_nonce" id="inputSecret" placeholder="oauth_nonce">
+        </div>
+        <div class="form-group">
+            <label for="inputToken" class="control-label">oauth_signature</label>
+              <input type="text" class="form-control" name="oauth_signature" id="inputToken" placeholder="oauth_signature">
+        </div>
+        <div class="form-group">
+            <label for="inputScret" class="control-label">oauth_token</label>
+              <input type="text" class="form-control" name="oauth_token" id="inputScret" placeholder="oauth_token" value="825444092-aIAaG1AobgbXBp6VR15T6tBG1bVfMrpHjR2h5IvR">
+        </div>
+
+        <div class="form-group">
+            <label for="inputStamp" class="control-label">timestamp</label>
+              <input type="text" class="form-control" name="timestamp" id="inputStamp" placeholder="timestamp">
+        </div>
+
+        <button type="submit" class="btn btn-primary pull-right">Get Feeds</button>
+    </form>
+</div>
+

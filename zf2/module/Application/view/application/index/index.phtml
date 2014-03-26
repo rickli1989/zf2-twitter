@@ -1,0 +1,23 @@
+<div class="jumbotron" ng-controller="TweetCtrl">
+    <button ng-click="tableParams.sorting({})" class="btn btn-default pull-right">Clear sorting</button>
+    <button ng-click="tableParams.filter({})" class="btn btn-default pull-right">Clear filter</button>
+    <p><strong>Sorting:</strong> {{tableParams.sorting()|json}}
+    <p><strong>Filter:</strong> {{tableParams.filter()|json}}
+    <table ng-table="tableParams" show-filter="true" class="table table-striped ">
+        <tr ng-repeat="tweet in $data">
+            <td data-title="'ID'" sortable="'id'" filter="{ 'id': 'text' }">
+                {{tweet.id}}
+            </td>
+            <td data-title="'Timeline'" sortable="'text'" filter="{ 'text': 'text' }">
+                {{tweet.text}}
+            </td>
+            <td data-title="'Created at'" sortable="'created_at'" filter="{ 'created_at': 'text' }">
+                {{tweet.created_at}}
+            </td>
+        </tr>
+    </table>
+</div>
+<script type="text/javascript">
+    tweets = '<?php echo $tweets; ?>';
+</script>
+

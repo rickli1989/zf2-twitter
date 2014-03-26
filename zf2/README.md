@@ -12,8 +12,8 @@ Installation Using Git
 You need to an install using native git submodules:
 
     cd /User/{name}/public_html( which is your local lamp env directory)
-    git clone https://github.com/rickli1989/Zend-Framework-2-twitter.git
-    cd Zend-Framework-2-twitter/
+    git clone https://github.com/rickli1989/zf2-twitter.git
+    cd zf2-twitter/
     mv zf2/ ../zf2
     cd ../zf2
     php composer.phar self-update

@@ -84,6 +84,6 @@ The sql file can be found in data.sql
 
 Sameple Scrennshot
 ------------------
-![alt tag](https://raw.githubusercontent.com/rickli1989/rickli1989.github.io/master/zf2/public/img/shot1.png)
-![alt tag](https://raw.githubusercontent.com/rickli1989/rickli1989.github.io/master/zf2/public/img/shot2.png)
-![alt tag](https://raw.githubusercontent.com/rickli1989/rickli1989.github.io/master/zf2/public/img/shot3.png)
+![alt tag](https://raw.githubusercontent.com/rickli1989/zf2-twitter/master/zf2/public/img/shot1.png)
+![alt tag](https://raw.githubusercontent.com/rickli1989/zf2-twitter/master/zf2/public/img/shot2.png)
+![alt tag](https://raw.githubusercontent.com/rickli1989/zf2-twitter/master/zf2/public/img/shot3.png)
